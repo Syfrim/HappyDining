@@ -54,6 +54,10 @@ const menuItems: MenuItem[] = [
   // Add more menu items as needed
 ];
 
+
+
+
+
 const Menu: React.FC = () => {
   return (
     <section id="menu" className="py-16 bg-gray-50">
@@ -64,7 +68,7 @@ const Menu: React.FC = () => {
           {menuItems.map((item, index) => (
             <div 
               key={index}
-              className="menu-card bg-white rounded-xl overflow-hidden shadow-lg"
+              className="bg-white rounded-xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105"
             >
               <div className="h-48 overflow-hidden">
                 <img 
@@ -85,6 +89,11 @@ const Menu: React.FC = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className='pt-8'>
+            <img src="https://scontent.fsin14-1.fna.fbcdn.net/v/t39.30808-6/457226268_900837545399830_2316159254751437034_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=0Zd1v3uJp7EQ7kNvgE8RTG-&_nc_oc=Adjx-9f4kk-LT0CtyJD-y37iKuVO2rSpghg_jOSEzRNBe8aQZ2buwJNvAOeuLEo9F04&_nc_zt=23&_nc_ht=scontent.fsin14-1.fna&_nc_gid=Azd4ESZ0fZKLcyLjLhk4dJu&oh=00_AYHWn06CRDAn-RVWvommnnwX2km5I92NuV-R7VYAG9cSHw&oe=67D6CB3A" alt="" />
+            <img src="https://scontent.fsin14-1.fna.fbcdn.net/v/t39.30808-6/472352209_988756223274628_1515522782851711467_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tVbNIlLlwtwQ7kNvgGaTkwX&_nc_oc=AdhChMbkZ9rYFwFQxL79sEkyAJns9o4imyDjWXwpGybnGSz8IGZgRXYli8UPu-CWNFI&_nc_zt=23&_nc_ht=scontent.fsin14-1.fna&_nc_gid=ADoan2fkqTUiIrJL5m-T4ts&oh=00_AYGy6o1bqYnQ0irv__rIhudEI7HF7xFZT9yp5KuDWPv1aA&oe=67D6B46E" alt="" />
+            <img src="https://scontent.fsin14-2.fna.fbcdn.net/v/t39.30808-6/472022462_988756209941296_1000680808289398394_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=M3XaN7rj-nQQ7kNvgERJS0W&_nc_oc=AdiFexMxRbS_nvlTKsOeUBh0HidfyfJM95d4LHryyBhSw56-KRKqDNFQl62duG9eZMM&_nc_zt=23&_nc_ht=scontent.fsin14-2.fna&_nc_gid=Apa_9XmFKpNlLWqwndCLVfm&oh=00_AYFvjNB5TUvg0yj9y_HEFMMultlzITyEsD3QMoUkRuBQHg&oe=67D6AA82" alt="" />
         </div>
       </div>
     </section>
