@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-semibold mb-4">Address</h3>
             <ul className="space-y-2 text-red-100">
             <li 
-                className="cursor-pointer hover:text-white transition-colors"
+                className="cursor-pointer text-white hover:text-blue-400 hover:underline transition-colors duration-300"
                 onClick={() => {
                   window.open("https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRhAMgYIAhBFGDkyBwgDEAAYgAQyBwgEEAAYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxNDQ5ajBqNKgCALACAA&um=1&ie=UTF-8&fb=1&gl=sg&sa=X&geocode=Ka06iyRXGdoxMWdiMOJMgzEv&daddr=50+Temple+St,+Singapore+058595", "_blank");
                 }}
